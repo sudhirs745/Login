@@ -4,4 +4,5 @@
     <string name="title_activity_main_login">MainLogin</string>
     <string name="tab_text_1">Login</string>
     <string name="tab_text_2">Sign Up</string>
+    <string name="title_activity_home_search">HomeSearch</string>
 </resources>

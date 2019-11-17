@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 
 import com.sud.login.HomeActivity;
 import com.sud.login.ForgotActivity;
+import com.sud.login.HomeSearch;
 import com.sud.login.R;
 
 public class LoginFragment extends Fragment {
@@ -46,7 +47,7 @@ public class LoginFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                startActivity( new Intent(getActivity(), HomeActivity.class));
+                startActivity( new Intent(getActivity(), HomeSearch.class));
             }
         });
 

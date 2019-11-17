@@ -9,17 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AddReviewActivity"
+            android:label="Add Review"
+            ></activity>
+        <activity
+            android:name=".ReviewActivity"
+            android:label="Total Review" />
+        <activity
+            android:name=".WishlistActivity"
+            android:label="Wishlist" />
+        <activity
+            android:name=".HomeSearch"
+            android:label="@string/title_activity_home_search"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainLogin"
             android:label="@string/title_activity_main_login"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".HomeActivity"
@@ -28,11 +39,13 @@
             android:name=".ForgotActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 
