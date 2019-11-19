@@ -19,6 +19,7 @@
             android:layout_gravity="center|left"
             android:background="@drawable/blue_shape_design"/>
 
+
         <FrameLayout
             android:layout_width="120dp"
             android:layout_height="330dp"
@@ -26,6 +27,13 @@
             android:layout_gravity="top|right"
             android:background="@drawable/yellow_shape_design"/>
 
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="80dp"
+            android:layout_gravity="top|center|right"
+            android:background="@drawable/lock"/>
 
 
         <LinearLayout
