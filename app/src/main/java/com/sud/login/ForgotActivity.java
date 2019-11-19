@@ -15,14 +15,13 @@ public class ForgotActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_new);
 
       TextView bt_save = findViewById(R.id.bt_save);
 
         bt_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 startActivity( new Intent(ForgotActivity.this, HomeActivity.class));
             }
         });
