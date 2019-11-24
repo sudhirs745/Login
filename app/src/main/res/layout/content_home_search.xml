@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".HomeSearch"
+    android:id="@+id/activity_main"
     tools:showIn="@layout/activity_home_search">
 
 
@@ -143,16 +144,53 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"/>
                             <TextView
+                                android:id="@+id/tv_add_to_cart"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Add to Cart"
                                 android:textColor="#fff"
                                 android:textStyle="bold"
+                                android:visibility="visible"
                                 android:paddingLeft="8dp"
                                 android:gravity="center"
                                 android:paddingRight="8dp"
                                 android:background="@drawable/cart_bt_bg"
                                 android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:id="@+id/lv_add_plus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingRight="8dp"
+                                android:visibility="gone"
+                                android:orientation="horizontal">
+
+
+                                <Button
+                                    android:id="@+id/bt_less"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="-"
+                                    android:textColor="@android:color/holo_red_light" />
+
+                                <TextView
+                                    android:id="@+id/tv_set_count"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:textColor="#000000"
+                                    tools:text="0" />
+
+                                <Button
+                                    android:id="@+id/bt_more"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="+"
+                                    android:textColor="@android:color/holo_green_light" />
+
+                            </LinearLayout>
+
 
                         </LinearLayout>
 
